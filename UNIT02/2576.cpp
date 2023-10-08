@@ -12,11 +12,14 @@ int main(void) {
         if (num % 2 == 1) v.push_back(num);
     }
 
-    if (v.size() == 0) result = -1;
-
-    for (int j=0; j<v.size(); j++) {
-        result += v[j];
+    if (v.empty()) {
+        result = -1;
+        cout << result;
+    } else {
+        for (int j=0; j<v.size(); j++) {
+            result += v[j];
+        }
+        sort(v.begin(), v.end());
+        cout << result << "\n" << v[0];
     }
-    sort(v.begin(), v.end());
-    cout << result << "\n" << v[0];
 }

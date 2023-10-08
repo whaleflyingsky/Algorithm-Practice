@@ -8,4 +8,6 @@ add_executable(UNIT02
         2752.cpp
         2480.cpp
         2490.cpp
-        2576.cpp)
+        2576.cpp
+        2587.cpp
+        2309.cpp)

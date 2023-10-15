@@ -43,6 +43,7 @@
 .idea/**/dictionaries
 .idea/**/shelf
 **/.idea/.gitignore
+**/.idea/.name
 **/.idea/modules.xml
 **/.idea/vcs.xml
 **/.idea/workspace.xml
